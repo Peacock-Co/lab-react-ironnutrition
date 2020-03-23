@@ -2,12 +2,12 @@ import React from "react";
 
 const SearchBox = () => {
   return (
-    <div class="container">
-      <h1 class="title">IronNutrition</h1>
+    <div className="container">
+      <h1 className="title">IronNutrition</h1>
       <div>
         <input
           type="text"
-          class="input search-bar"
+          className="input search-bar"
           name="search"
           placeholder="Search"
           value=""

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import foods from "../foods.json";
 import "bulma/css/bulma.css";
 
@@ -50,6 +50,9 @@ const FoodBox = () => {
                 ))}
               </ul>
             </table>
+          </div>
+          <div>
+            <button className="button">New Food</button>
           </div>
         </div>
       </div>
